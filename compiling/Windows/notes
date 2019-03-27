@@ -1,0 +1,37 @@
+Download RTools
+----------------
+  RTools contains the Windows Toolchain and Build
+  Utilities to compile R, such as
+   - make,
+   - bash,
+   - sed
+   
+ 
+PATH must be modified to point to RTools
+  (Also possible in .Renviron file in Documents folder:
+     PATH="C:\Rtools\bin;${PATH}"
+     
+    
+$(WIN)   
+------
+   Is set by R to either 32 or 64.
+
+$(BINREF)
+---------
+   By default, R looks for compilers in the default installation path in
+   C:\Rtools\. If you install Rtools anywhere else, you have to point R 
+   to the path of gcc, g++, ld, by setting a variable called BINPREF.
+   For example:
+       BINPREF="M:/R/Rtools-3.5/mingw_$(WIN)/bin/"
+       
+Other tools
+-----------
+  Apperantly, even more tools are needed to build R:
+  - Recent MiKTeX + packages fancyvrb, inconsolata, epsf, mptopdf, url
+  - Inno Setup to build the installer
+  - Perl such as Strawberry Perl
+
+
+https://github.com/rwinlib/base
+-------------------------------
+  The official (allegedly) repository for building R on Windows

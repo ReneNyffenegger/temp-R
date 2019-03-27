@@ -1,0 +1,24 @@
+lines()
+-------
+    adds an additional line on a graph:
+    
+      plot( x1, type = "l", lty = "solid" )
+      lines(x2, type = "l", lty = "dashed")
+      
+abline()
+--------
+   adds a horizontal or vertical line or a linear function to the current plot
+      
+      plot(x1, type = "l", lty = "solid")
+      abline(h = -3, lty = "dashed", col = "gray")          # horizontal line
+      abline(v = -2, lty = 'dashed', col = 'gray')          # vertical line
+      abline(a = -3 , b = 0.6, lty = 'dotted', col = 'red') # linear function
+   
+grid()
+------
+    adds a grid to the current graph.
+       grid()
+       
+    Alternatively, a grid can be constructed with abline():
+       abline(v=(seq(0,100,5)), col="lightgray", lty="dotted")
+       abline(h=(seq(0,100,5)), col="lightgray", lty="dotted")

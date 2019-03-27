@@ -17,3 +17,7 @@ par(mfcol = c(3,2))
        plot(x1, type = "h")
        plot(x1, type = "s")
        plot(x1, type = "S")
+
+
+par(bg="whitesmoke")
+   Set background color.

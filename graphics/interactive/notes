@@ -2,7 +2,13 @@ rggobi
    problems with flexibility 
 
 playwith 
-    GTK+ graphical user interface for editing and interacting with R plots”  
+   GTK+ graphical user interface for editing and interacting with R plots”  
     
 latticist
-    Similar to playwith
+   Similar to playwith
+
+RKward
+   claims to make it ieasy to draw graphs
+   
+R commander
+   claims to make it ieasy to draw graphs   

@@ -1,0 +1,19 @@
+par(mfcol = c(3,2))
+
+  print 3 rows and 2 columns worth of plots:
+  
+       par(mfrow = c(3,2))
+       plot(x1, type = "n")
+       plot(x1, type = "p")
+       plot(x1, type = "l")
+       plot(x1, type = "h")
+       plot(x1, type = "s")
+       plot(x1, type = "S")
+       
+       par(mfcol = c(3,2))
+       plot(x1, type = "n")
+       plot(x1, type = "p")
+       plot(x1, type = "l")
+       plot(x1, type = "h")
+       plot(x1, type = "s")
+       plot(x1, type = "S")

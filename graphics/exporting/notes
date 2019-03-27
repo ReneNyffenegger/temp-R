@@ -1,0 +1,7 @@
+pdf ('output.pdf' )
+png ('output.png' )
+jpeg('output.jpg' )
+bmp ('output.bmp' )
+tiff('output.tiff')
+
+savePlot()

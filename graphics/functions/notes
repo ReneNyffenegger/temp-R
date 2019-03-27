@@ -1,0 +1,50 @@
+Important functions to cusomize graphics:
+  plot()
+  par()
+
+ 
+Plot functions for specific tasks:
+  hist()
+  boxplot()
+  ...
+  
+Plotting types
+   plot(..., type = c)
+     c:
+       "n" - none (nothing is printed)
+       "p" - points
+       "l" - lines
+       "b" - both
+       "o" - both, overlayed
+       "h" - histogram like
+       "s" - steps
+       "S" - steps
+  
+Annotating graphics:
+
+   Setting title and subtitle:
+      plot(.... main = "THE title", sub = "sub title")
+      title(main = "...", sub = "...")
+      
+   Axis:
+      plot(...., xlab = "....", ylab = "...")
+      
+      
+   Legends
+       legend("bottomleft", legend = c("x1", "x2"), col = 1:2, lty = 1:2)
+       Possible coordinates:
+          - "bottomleft"
+          - "bottomright"
+          - "topleft"
+          - "topright"
+          -  exact coordinates.
+          
+   margins
+       mtext() puts text into the margin.
+          The parameter type specifies where it is placed:
+              1: bottom
+              2: left
+              3: top
+              4: right
+         plot(x1, type = "l", col = 1, lty = 1)
+         mtext("some text", side = 4)

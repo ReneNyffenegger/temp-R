@@ -9,6 +9,12 @@ latticist
 
 RKward
    claims to make it ieasy to draw graphs
+
+iplots
+   "Deducer 0.4-2 connects with iplots"
+  
+animint
+   To create an interactive, animated plot viewable in a web browser
    
 R commander
    claims to make it ieasy to draw graphs   

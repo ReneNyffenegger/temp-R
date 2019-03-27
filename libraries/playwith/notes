@@ -1,0 +1,3 @@
+Apparently, playwith also needs RGtk2 (at least on Windows, R Studio 0.98):
+   install.packages("playwith")
+   install.packages("RGtk2"   )

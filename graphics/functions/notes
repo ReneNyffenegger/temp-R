@@ -26,6 +26,20 @@ Annotating graphics:
       plot(.... main = "THE title", sub = "sub title")
       title(main = "...", sub = "...")
       
+   Lines
+      Line types are controlled with lty. Possible values:
+        Strings     Integer
+        -------------------
+       "blank"            0
+       "solid"            1
+       "dashed"           2
+       "dotted"           3
+       "dotdash"          4
+       "longdash"         5
+       "twodash"          6
+       
+          plot(x1, type="l", "lty = "solid")
+      
    Axis:
       plot(...., xlab = "....", ylab = "...")
       

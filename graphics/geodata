@@ -1,0 +1,5 @@
+Packages:
+  - rgdal
+  - rgeos
+  - raster (for relief)
+  - ggmap (?)

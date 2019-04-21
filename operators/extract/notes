@@ -8,6 +8,8 @@ https://stackoverflow.com/a/47497773/180275:
 The slot operator is used to extract content from objects built with the S4
 object system, also known as a formally defined object in R.
 
+The most important distinction between [, [[ and $ is that the [ can select more than one element whereas the other two select a single element. 
+
 --------
 
 https://github.com/lgreski/datasciencectacontent/blob/master/markdown/rprog-extractOperator.md

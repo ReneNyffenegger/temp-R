@@ -1,0 +1,13 @@
+https://stackoverflow.com/a/47497773/180275:
+  There are four forms of the extract operator in R:
+    [
+    [[
+    $
+    @   ( also known as the slot operator)
+
+The slot operator is used to extract content from objects built with the S4
+object system, also known as a formally defined object in R.
+
+--------
+
+https://github.com/lgreski/datasciencectacontent/blob/master/markdown/rprog-extractOperator.md

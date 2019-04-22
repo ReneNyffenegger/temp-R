@@ -10,6 +10,8 @@ object system, also known as a formally defined object in R.
 
 The most important distinction between [, [[ and $ is that the [ can select more than one element whereas the other two select a single element. 
 
+The main difference between $ and [[ is that $ does not allow computed indices, whereas [[ does. x$name is equivalent to x[["name", exact = FALSE]].
+
 --------
 
 https://github.com/lgreski/datasciencectacontent/blob/master/markdown/rprog-extractOperator.md
